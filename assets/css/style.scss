@@ -1,0 +1,48 @@
+---
+---
+
+$bg-color: #01242e;
+$primary-font-color: #fafaf0;
+$blue: #268bd2;
+
+body {
+  font-family: monospace, sans-serif;
+  margin: auto;
+  padding: 20px;
+  max-width: 720px;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  background-color: $bg-color;
+  color: $primary-font-color;
+}
+
+a {
+  color: $blue;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $blue;
+  }
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+.masthead {
+  margin: 2rem 0;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 250px;
+}
